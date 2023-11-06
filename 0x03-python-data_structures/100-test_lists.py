@@ -18,7 +18,8 @@ l.append(3)
 l.append(4)
 lib.print_python_list_info(l)
 l.pop()
-lib.print_python_list_info(l) 
+lib.print_python_list_info(l)
+julien@ubuntu:~/CPython$ python3 100-test_lists.py 
 [*] Size of the Python List = 2
 [*] Allocated = 2
 Element 0: str
@@ -53,4 +54,3 @@ Element 0: int
 Element 1: int
 Element 2: int
 Element 3: int
-
